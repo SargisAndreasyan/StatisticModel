@@ -22,4 +22,4 @@ class Tree:
 
 if __name__ == '__main__':
     head = Tree(3)
-    print()
+    print(head)

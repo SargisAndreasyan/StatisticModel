@@ -71,7 +71,7 @@ class Person:
         sleep(self.time_use)
 
 
-if __name__ == '__main__':
+def manager():
     queue = Queue()
     t = threading.Thread(target=queue.work)
     t.start()
